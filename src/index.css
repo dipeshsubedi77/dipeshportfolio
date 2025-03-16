@@ -1,4 +1,11 @@
 @import "tailwindcss";
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #101828; /* Replace with your desired background color */
+  transition: background-color 0.3s ease; /* Optional: Smooth transition */
+}
 @keyframes bounce-slow {
   0%,
   100% {
