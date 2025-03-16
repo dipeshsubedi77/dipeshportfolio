@@ -34,18 +34,17 @@ const Navbar = () => {
   const navLinks = [
     { name: "Home", path: "/" },
     { name: "Projects", path: "/projects" },
-    { name: "About", path: "/about" },
+    
     { name: "Blog", path: "/blog" },
     { name: "Contact", path: "/contact" },
   ]
 
   const isActive = (path) => {
     if (path === "/") {
-      return location.pathname === path
+      return location.pathname === path;
     }
-    return location.pathname.startsWith(path)
-  }
-
+    return location.pathname.startsWith(path);
+  };
   return (
     <header
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
@@ -130,6 +129,9 @@ const Navbar = () => {
                   {isDarkMode ? <Sun size={18} /> : <Moon size={18} />}
                 </motion.div>
               </AnimatePresence>
+
+
+              
             </button>
 
             {/* Mobile Menu Button */}
