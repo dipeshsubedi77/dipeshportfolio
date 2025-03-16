@@ -10,6 +10,7 @@ import ProjectDetail from "./components/ProjectDetail"
 import SkillsSection from "./components/SkillsSection"
 import TestimonialsSection from "./components/TestimonialsSection"
 import ContactSection from "./components/ContactSection"
+import AboutSection from "./components/aboutSection"
 
 import Footer from "./components/Footer"
 // Sample project data
