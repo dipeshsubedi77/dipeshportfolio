@@ -86,7 +86,7 @@ const HeroSection = () => {
               </a>
 
               <a
-                href="https://github.com/yourusername"
+                href="https://github.com/dipeshsubedi77"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="px-6 py-3 border border-gray-300 dark:border-gray-700 rounded-full font-medium flex items-center gap-2 hover:gap-3 transition-all hover:border-gray-900 dark:hover:border-gray-300"
@@ -162,7 +162,7 @@ const HeroSection = () => {
                 <div className="w-full h-full rounded-xl overflow-hidden relative">
                   {/* Replace with your actual image */}
                   <img
-                    src="https://dipeshsubedi.info.np/images/WhatsApp_Image_2024-10-03_at_12.58.42_ad5e50bd-removebg.png"
+                    src="src/assets/images/pp2.png"
                     alt="Portrait of John Doe"
                     className="w-full h-full object-cover"
                   />

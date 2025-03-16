@@ -10,7 +10,7 @@ import ProjectDetail from "./components/ProjectDetail"
 import SkillsSection from "./components/SkillsSection"
 import TestimonialsSection from "./components/TestimonialsSection"
 import ContactSection from "./components/ContactSection"
-
+import AboutSection from "./AboutSection"
 
 import Footer from "./components/Footer"
 // Sample project data
@@ -207,7 +207,8 @@ function App() {
               element={
                 <>
                   <HeroSection />
-                 
+                  <AboutSection/>
+                  
                   <SkillsSection />
                   
                   <ProjectsGrid projects={projectsData.filter((p) => p.featured)} />
